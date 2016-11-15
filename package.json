@@ -1,0 +1,31 @@
+{
+  "name": "online_shopping",
+  "version": "1.0.0",
+  "description": "This application is used as a code generating module with the given API names and languages.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "archiver": "^1.0.1",
+    "body-parser": "^1.15.2",
+    "connect-multiparty": "^2.0.0",
+    "deasync": "^0.1.7",
+    "express": "^4.14.0",
+    "fs-path": "^0.0.22",
+    "mkdirp": "^0.5.1",
+    "request": "^2.74.0",
+    "rimraf": "^2.5.4",
+    "swagger-converter": "^1.4.1",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopping"
+  ],
+  "author": "Pradeepa Loganathan",
+  "license": "ISC"
+}
