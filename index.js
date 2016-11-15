@@ -2,12 +2,7 @@ var express = require('express'),
 	http = require('http'),
 	https = require('https'),
 	fileSystem = require('fs'),
-	swaggerConverter = require('swagger-converter'),
 	request = require("request"),
-	zipFolder = require('zip-folder'),
-	deasync = require('deasync'),
-	fsPath = require('fs-path'),
-	rmdir = require('rimraf'),
 	DbModule = require('./database/dbconnector.js');
 
 var multipart = require('connect-multiparty');
